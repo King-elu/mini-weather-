@@ -14,6 +14,7 @@ const form =document.querySelector("form")
             
             
     body.style.backgroundImage=" url('https://source.unsplash.com/1440x1600/?nice)"
+    body.style.backgroundReapeat  ="no-repeat"
     body.style.backgroundSize="100% 100%"
 
         }).catch(()=>{
