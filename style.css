@@ -114,17 +114,16 @@ body{
     max-width:220px;
     min-width:160px;
     border-radius: 10px;
-    margin-left:10px;
     background-color: rgba(24,24,27, 0.6);
     box-shadow: 0 0 5px black;
 }
 .datecontainer .time{
     margin-top: 5px;
     font-size: 2rem;
+    margin-left:10px
 }
 #am-pm{
     font-size: 1.5rem;
-    margin-left:10px;
 }
 .date{
     font-size: 1.2rem;
@@ -140,7 +139,6 @@ body{
 .others .weatheritem{
     display: flex;
     gap: 15px;
-    margin-left:10px;
     
     
 }
@@ -192,7 +190,7 @@ body{
     
     background: url("./image.jpg/images\ \(1\).jpg");
      background-repeat:no-repeat;
-     background-size:295px 200px;
+     background-size:cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,7 +205,7 @@ body{
     margin-top: -20px;
     padding: 10px;
     border-radius: 20px;
-    margin: 0;
+    margin: auto;
     letter-spacing: 0.5px;
     text-shadow: none;
     background-color: rgba(24,24,27, .9);
