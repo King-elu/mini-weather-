@@ -114,7 +114,7 @@ body{
     max-width:220px;
     min-width:160px;
     border-radius: 10px;
-    padding-left:10px;
+    margin-left:10px;
     background-color: rgba(24,24,27, 0.6);
     box-shadow: 0 0 5px black;
 }
@@ -185,6 +185,7 @@ body{
  .peter{
     
     background-image: url("./image.jpg/images\ \(1\).jpg");
+     background-repeat:no-repeat;
      background-size:cover;
     display: flex;
     flex-direction: column;
