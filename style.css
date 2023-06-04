@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color:black;
 }
 .all{
     
@@ -81,7 +82,8 @@ body{
 }
 .flex{
     display:flex;
-    align-items: center;
+    flex-direction:column;
+    
 }
 .city{
     margin: 0;
