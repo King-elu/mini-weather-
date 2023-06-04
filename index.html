@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>W.N.L.S</title>
+</head>
+<body>
+    <div class="all">
+        <div class="container">
+            <div class="search">
+                <div class="form" ><input type="text" id="searchbar" placeholder="serach by city..">
+                    <button id="btn" ><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"></path><path d="M11.412,8.586C11.791,8.966,12,9.468,12,10h2c0-1.065-0.416-2.069-1.174-2.828c-1.514-1.512-4.139-1.512-5.652,0 l1.412,1.416C9.346,7.83,10.656,7.832,11.412,8.586z"></path></svg> </button></div>
+                    <div class="srcweather loading">
+                        <h2 class="city"></h2>
+                    <div class="temp"></div>
+                    <div class="flex">
+                    <img src="" alt="" class="icon">
+                    <div class="description">
+                        cloudy
+                    </div></div>
+            
+                    <div class="humidity"></div>
+                    <div class="wind"></div>
+            </div>
+        </div>
+        <div class="locationweather">
+            <h1 id="name"> </h1>
+            <div class="location">
+                <div class="datecontainer">
+                    <div class="time" id="time">
+                        12:30 <span id="am-pm"></span>
+                    </div>
+                    <div class="date" id="date">
+                        Monday, 24 May
+                    </div>
+                    <div class="others" id="current">
+                        <div class="weatheritem">
+                            <div></div>
+                        <div class="humidityvalue"></div>
+                        </div>
+                        <div class="weatheritem">
+                            <div></div>
+                        <div class="pressurevalue"></div>
+                        </div>
+                        <div class="weatheritem">
+                            <div id="desribe"></div>
+                        <div><img src="" alt="" id="iconic"></div>
+                        </div>
+                        <div class="weatheritem">
+                            <div></div>
+                        <div class="windspeed"></div>
+                        </div>
+                        <div class="weatheritem">
+                        <div class="celcius"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="forecast" id="forecast">
+                
+                
+            
+                    
+                 <div class="weatherforecast" id="otherforecast">
+
+                    <div class="scrollable peter" >
+                        <div class="quote" >
+                            
+                                <p class="lorem">
+                                    <q>
+                                        I am not the smartest man in the world , but i can always look back on my life and say i went for it
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Peter Griffin ~</p>
+                        </div>
+                    </div>
+
+                    <div class="scrollable petertwo">
+                        <div class="quote" id="petertwo">
+                            
+                                <p class="lorem">
+                                    <q>Sir , i may be an idiot but there's One thing i'm not and that sir is an idiot
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Peter Griffin ~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable brian">
+                        <div class="quote" id="brianone">
+                            
+                                <p class="lorem">
+                                    <q>With the heart at stake , right and wrong is a stake through the heart
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Brian Griffin~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable peterthree">
+                        <div class="quote" id="peterthree">
+                            
+                                <p class="lorem">
+                                    <p> <q> Loise :Peter you are bribing your daughter with a car?</q></p>
+                                    <q>Peter : Come on loise , is'nt bribe just another word for love
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Peter Griffin~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable peterfour">
+                        <div class="quote" id="peterfour">
+                            
+                                <p class="lorem">
+                                    <q><p><q>Joe : sex is overrated</q></p>
+                                    <p><q>peter : stay out of this Joe</q></p>
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ peter Griffin~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable stewie">
+                        <div class="quote" id="stewieone">
+                                <p class="lorem">
+                                    <q>When the world is mine your death should be quicker and painless
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Stewie Griffin~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable stewietwo">
+                        <div class="quote" id="stewietwo">
+                            
+                                <p class="lorem">
+                                    <q>The only reason we die is beacause we accept death as invevitability
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Stewie Griffin ~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable lois">
+                        <div class="quote" id="lois">
+                            
+                                <p class="lorem">
+                                    <q>You never know who's gonna grow up to be famous , so just be make yourself available.
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Lois Griffin ~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable cleveland">
+                        <div class="quote" id="cleveland">
+                            
+                                <p class="lorem">
+                                    <q>You want the media to go away? Just mention black on black crime
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Cleveland ~</p>
+                        </div>
+                    </div>
+
+                    <div class="scrollable meg">
+                        <div class="quote" id="meg">
+                            
+                                <p class="lorem">
+                                    <q>Sometimes it is hard to be me  
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Meg ~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable joe">
+                        <div class="quote" id="joe">
+                            
+                                <p class="lorem">
+                                    <q>You don't
+                                        have to win to have fun
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Joe~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable  briantwo">
+                        <div class="quote">
+                            
+                                <p class="lorem" id="briantwo">
+                                    <q>
+                                        You're like all the worst parts of a girlfriend
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Brian Griffin ~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable  peterfive">
+                        <div class="quote">
+                            
+                                <p class="lorem" id="peterfive">
+                                    <q>
+                                        Love is like a fart , if you have to force it it's probably crap
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Peter Griffin~</p>
+                        </div>
+                    </div>
+                    <div class="scrrollable  quagmire">
+                        <div class="quote"  id="quagmire">
+                            
+                                <p class="lorem">
+                                    <q>
+                                        This is more P*ssy than even i can handle
+                                    </q>
+                                </p>
+                        
+                            <p id="author">~ Quagmire~</p>
+                        </div>
+                    </div>
+                    <div class="scrollable joe">
+                        <div class="quote">
+                            
+                                <p class="lorem" id="joeone">
+                                    <q>
+                                   One day a rain will come and wash all the scum off the street </q>
+                                </p>
+                        
+                            <p id="author">~ Joe  ~</p>
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                        
+    
+                </div>
+
+             </div>
+            </div>
+    
+    <script src="main.js" defer></script>
+</body>
+</html>

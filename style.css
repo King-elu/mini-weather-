@@ -1,0 +1,351 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding: 0;
+    margin: 0;
+    width:320px;
+    height:fit-content;
+    background-color: white;
+    border: 2px dotted red;
+    border-radius: 10px;
+}
+#name{
+    font-weight: 300;
+    font-size: 1.6rem;
+    float: right;
+    width: 140px;
+    overflow-wrap: break-word;
+
+}
+.locationweather{
+    
+    width: 100%;
+    height: 450px;
+    color: white;
+    text-shadow: 2px 2px black;
+    background-color:#000000d0;
+    border-radius: 10px;
+}
+
+.location{
+    width: 100%;
+    height: 200px;
+    padding: 5px 10px;
+}
+.search{
+    color:white;
+    text-shadow: 2px 2px black;
+    font-weight: 300;
+    font-size: 1.2rem;
+    max-width: 320px;
+    overflow-x:wrap;
+    height: 220px;
+    background-color: #000000d0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#searchbar {
+    outline:hidden;
+    color:azure;
+    height: 2rem;
+    width:60%;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 2px solid darkslategray;
+    background-color: darkslategray;
+}
+.form button{
+    height: 2.2rem;
+    width:2.2rem;
+    margin-left: 5px;
+    display: grid;
+    place-content: center;
+    border: 2px solid darkslategray;
+    background-color: darkslategray;
+    border-radius: 30px;
+}
+.flex{
+    display:flex;
+    align-items: center;
+}
+.city{
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.temp{
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.icon{
+    margin-left:10px;
+}
+.description{
+    text-transform: capitalize;
+}
+.humidity{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.wind{
+    margin-left: 10px;
+
+}
+.datecontainer{
+
+    width: 160px;
+    padding:0 5px;
+    border-radius: 10px;
+    background-color: rgba(24,24,27, 0.6);
+    box-shadow: 0 0 5px black;
+}
+.datecontainer .time{
+    margin-top: 5px;
+    font-size: 2rem;
+}
+#am-pm{
+    font-size: 1.5rem;
+}
+.date{
+    font-size: 1.2rem;
+}
+.datecontainer .others{
+    display: flex;
+    flex-direction:column ;
+}   
+.others .weatheritem{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.forecast::-webkit-scrollbar{
+    width: 0;
+
+}
+.forecast{
+    padding: 5px;
+    height: 180px;
+    display: flex;
+    max-width: 481px;
+    overflow-x: scroll;
+    box-shadow: 0 0 5px black;
+    margin: auto;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+}
+    
+ .today{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+}
+.forecast .today .day{
+    padding: 5px 10px;
+    background-color: #3c3c44;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.forecast .weatherforecast{
+    display: flex;
+    margin-left: 0;
+    
+}
+ .peter{
+    
+    background-image: url("./image.jpg/images\ \(1\).jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+}
+ .quote{
+    width: 295px;
+    height: 200px;
+    margin-top: -20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0;
+    letter-spacing: 0.5px;
+    text-shadow: none;
+    background-color: rgba(24,24,27, .9);
+}
+
+#author{
+    padding: 0;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+}
+.petertwo{
+background-image: url("./image.jpg/images.png");
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.brian{
+background-image: url("./image.jpg/download.jpg");
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.peterthree{
+background-image: url("./image.jpg/images\ \(3\).jpg");
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.peterfour{
+    background-image: url(./image.jpg/images\ \(2\).jpg);
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.briantwo{
+    background-image: url("./image.jpg/images\ \(4\).jpg");
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.quagmire{
+    background-image: url("./image.jpg/quagmire.jpg");display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+}
+.joe{
+    background-image: url("./image.jpg/joe.jpg");
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.joetwo{
+    background-image: url("./image.jpg/joe2.jpg");
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.meg{
+    background-image: url("./image.jpg/meg.jpg");
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.cleveland{
+    background-image: url("./image.jpg/cleveland.jpg");
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.lois{
+    background-image: url(./image.jpg/lois.png);
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.peterfive{
+    background-image: url(./image.jpg/images.jpg);
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 10px;
+box-shadow: 0 0 20px black;
+border-radius: 20px;
+}
+.stewie{
+    background-image: url("./image.jpg/stewie.jpg");display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+}
+.stewietwo{
+    background-image: url("./image.jpg/stewie2.jpg");display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+}
