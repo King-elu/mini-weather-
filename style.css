@@ -124,18 +124,24 @@ body{
 }
 #am-pm{
     font-size: 1.5rem;
+    margin-left:10px;
 }
 .date{
     font-size: 1.2rem;
+    margin-left:10px;
+    
 }
 .datecontainer .others{
     display: flex;
     flex-direction:column ;
+    margin-left:10px;
     gap:10px;
 }   
 .others .weatheritem{
     display: flex;
     gap: 15px;
+    margin-left:10px;
+    
     
 }
 
@@ -220,7 +226,9 @@ body{
     border-radius: 20px;
 }
 .petertwo{
-background-image: url("./image.jpg/images.png");
+background: url("./image.jpg/images.png");
+    background-repeat:no-repeat;
+    background-size:295px 200px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -230,7 +238,10 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .brian{
-background-image: url("./image.jpg/download.jpg");
+background: url("./image.jpg/download.jpg");
+    
+    background-repeat:no-repeat;
+    background-size:295px 200px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -240,7 +251,10 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .peterthree{
-background-image: url("./image.jpg/images\ \(3\).jpg");
+background: url("./image.jpg/images\ \(3\).jpg");
+    
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -250,7 +264,10 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .peterfour{
-    background-image: url(./image.jpg/images\ \(2\).jpg);
+    background: url(./image.jpg/images\ \(2\).jpg);
+    
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -260,7 +277,9 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .briantwo{
-    background-image: url("./image.jpg/images\ \(4\).jpg");
+    background: url("./image.jpg/images\ \(4\).jpg");
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -270,7 +289,9 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .quagmire{
-    background-image: url("./image.jpg/quagmire.jpg");display: flex;
+    background: url("./image.jpg/quagmire.jpg");display: flex;
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -279,7 +300,9 @@ border-radius: 20px;
     border-radius: 20px;
 }
 .joe{
-    background-image: url("./image.jpg/joe.jpg");
+    background: url("./image.jpg/joe.jpg");
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -289,7 +312,9 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .joetwo{
-    background-image: url("./image.jpg/joe2.jpg");
+    background: url("./image.jpg/joe2.jpg");
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -299,7 +324,9 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .meg{
-    background-image: url("./image.jpg/meg.jpg");
+    background: url("./image.jpg/meg.jpg");
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -309,7 +336,9 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .cleveland{
-    background-image: url("./image.jpg/cleveland.jpg");
+    background: url("./image.jpg/cleveland.jpg");
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -319,7 +348,9 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .lois{
-    background-image: url(./image.jpg/lois.png);
+    background: url(./image.jpg/lois.png);
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -329,7 +360,9 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .peterfive{
-    background-image: url(./image.jpg/images.jpg);
+    background: url(./image.jpg/images.jpg);
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -339,7 +372,10 @@ box-shadow: 0 0 20px black;
 border-radius: 20px;
 }
 .stewie{
-    background-image: url("./image.jpg/stewie.jpg");display: flex;
+    background: url("./image.jpg/stewie.jpg");display: flex;
+    
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -348,7 +384,9 @@ border-radius: 20px;
     border-radius: 20px;
 }
 .stewietwo{
-    background-image: url("./image.jpg/stewie2.jpg");display: flex;
+    background: url("./image.jpg/stewie2.jpg");display: flex;
+    background-repeat:no-repeat;
+    background-size:295px 200px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
