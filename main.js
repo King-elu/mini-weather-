@@ -59,11 +59,11 @@ navigator.geolocation.getCurrentPosition(position =>{
         const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`
         fetch(url).then(res =>res.json()).then(data =>{
             const country = data.address.coutry
-weather.fetchWeather(country)
 
 
 })})
-
+weather.fetchWeather(country)
+
 
 
 
