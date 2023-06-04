@@ -14,8 +14,6 @@ body{
     max-width:481px;
     min-width:320px;
     height:fit-content;
-    background-color: white;
-    border: 2px dotted red;
     border-radius: 10px;
 }
 #name{
@@ -111,7 +109,7 @@ body{
 }
 .datecontainer{
     max-widh:250px;
-   min-width: 160px;
+    min-width:160px;
     padding:0 5px;
     border-radius: 10px;
     background-color: rgba(24,24,27, 0.6);
