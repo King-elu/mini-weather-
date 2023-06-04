@@ -11,7 +11,7 @@ const form =document.querySelector("form")
         fetch(url).then(res =>res.json()).then(data =>{
             const location = data.address.city 
             const state = data.address.state
-            const country = data address.country
+            const country = data.address.country
             input.textContent = location+", "+state+", "+country
             
             
