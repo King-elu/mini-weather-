@@ -14,7 +14,7 @@ const form =document.querySelector("form")
             
             
     body.style.backgroundImage=" url('https://source.unsplash.com/1440x1600/?nice)"
-    body.style.backgroundSize="contain"
+    body.style.backgroundSize="100% 100%"
 
         }).catch(()=>{
             console.log("error")
