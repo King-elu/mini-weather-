@@ -184,9 +184,9 @@ body{
 }
  .peter{
     
-    background-image: url("./image.jpg/images\ \(1\).jpg");
+    background: url("./image.jpg/images\ \(1\).jpg");
      background-repeat:no-repeat;
-     background-size:cover;
+     background-size:295px 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
