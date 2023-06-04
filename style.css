@@ -8,6 +8,7 @@ body{
     
     display: flex;
     justify-content: center;
+    align-igtems:center;
 }
 .container{
     padding: 0;
@@ -143,13 +144,14 @@ body{
 }
 .forecast{
     padding: 5px;
-    height: 180px;
+    height: fit-content;
     display: flex;
     max-width: 481px;
+    min-width:320px;
     overflow-x: scroll;
     box-shadow: 0 0 5px black;
     margin: auto;
-    border-radius: 10px;
+    border-radius:10px 10px 0 0;
     scroll-behavior: smooth;
 }
     
