@@ -190,7 +190,7 @@ body{
     
     background: url("./image.jpg/images\ \(1\).jpg");
      background-repeat:no-repeat;
-     background-size:cover;
+     background-size:100% 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -226,7 +226,7 @@ body{
 .petertwo{
 background: url("./image.jpg/images.png");
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:contain;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -239,7 +239,7 @@ border-radius: 20px;
 background: url("./image.jpg/download.jpg");
     
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -252,7 +252,7 @@ border-radius: 20px;
 background: url("./image.jpg/images\ \(3\).jpg");
     
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:100%;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -265,7 +265,7 @@ border-radius: 20px;
     background: url(./image.jpg/images\ \(2\).jpg);
     
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     display: flex;
 flex-direction: column;
 align-items: center;
