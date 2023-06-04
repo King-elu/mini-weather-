@@ -13,7 +13,7 @@ const form =document.querySelector("form")
             input.textContent = location
             
             
-    body.style.backgroundImage=" url('https://source.unsplash.com/760x1600/?nice)"
+    body.style.backgroundImage=" url('https://source.unsplash.com/1440x1600/?nice)"
     body.style.backgroundSize="contain"
 
         }).catch(()=>{
