@@ -53,7 +53,9 @@ this.fetchWeather(document.querySelector("#searchbar").value)
 document.querySelector("#btn").addEventListener("click",()=>{
     weather.search()
     document.querySelector("#searchbar").value = ""
-})  navigator.geolocation.getCurrentPosition(position =>{
+}) 
+
+ navigator.geolocation.getCurrentPosition(position =>{
         const { latitude, longitude}=position.coords;
         const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`
         fetch(url).then(res =>res.json()).then(data =>{
