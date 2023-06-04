@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     background-color:black;
     height:800px;
-    width;481px;
+    width:481px;
 }
 .all{
     
@@ -84,7 +84,6 @@ body{
 }
 .flex{
     display:flex;
-    flex-direction:column;
     
 }
 .city{
@@ -151,7 +150,7 @@ body{
     max-width: 481px;
     overflow-x: scroll;
     box-shadow: 0 0 5px black;
-    margin:10px auto;
+    margin: auto;
     border-radius: 10px;
     scroll-behavior: smooth;
 }
