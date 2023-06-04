@@ -9,8 +9,10 @@ const form =document.querySelector("form")
         const { latitude, longitude}=position.coords;
         const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`
         fetch(url).then(res =>res.json()).then(data =>{
-            const location = data.address.state
-            input.textContent = location
+            const location = data.address.city 
+            const state = data.address.state
+            const country = data address.country
+            input.textContent = location+", "+state+", "+country
             
             
     body.style.backgroundImage=" url('https://source.unsplash.com/1440x1600/?nice)"
@@ -53,7 +55,7 @@ document.querySelector("#btn").addEventListener("click",()=>{
     document.querySelector("#searchbar").value = ""
 })
 
-weather.fetchWeather("nairobi")
+weather.fetchWeather("Africa")
 
 
 
@@ -88,7 +90,7 @@ function getweather(){
         const {latitude,longitude} = success.coords
         const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`
         fetch(url).then(res =>res.json()).then(data =>{
-            const geo = data.address.state
+            const geo = data.address.city
             function weatherfinder(place){
                 fetch("https://api.openweathermap.org/data/2.5/weather?q="
                 + place 
