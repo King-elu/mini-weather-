@@ -14,7 +14,7 @@ body{
     max-width:481px;
     min-width:320px;
     height:fit-content;
-    border-radius: 10px;
+    background-color:black:
 }
 #name{
     font-weight: 300;
