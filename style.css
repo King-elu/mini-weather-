@@ -171,7 +171,7 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     box-shadow: 0 0 10px black;
-    border-radius: 20px;
+    border-radius:10px 20px 0 0;
 }
 .forecast .today .day{
     padding: 5px 10px;
@@ -226,7 +226,7 @@ body{
 .petertwo{
 background: url("./image.jpg/images.png");
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size:cover;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -252,7 +252,7 @@ border-radius: 20px;
 background: url("./image.jpg/images\ \(3\).jpg");
     
     background-repeat:no-repeat;
-    background-size:100%;
+    background-size:100% 100%;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -277,7 +277,7 @@ border-radius: 20px;
 .briantwo{
     background: url("./image.jpg/images\ \(4\).jpg");
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -289,7 +289,7 @@ border-radius: 20px;
 .quagmire{
     background: url("./image.jpg/quagmire.jpg");display: flex;
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -300,7 +300,7 @@ border-radius: 20px;
 .joe{
     background: url("./image.jpg/joe.jpg");
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -312,7 +312,7 @@ border-radius: 20px;
 .joetwo{
     background: url("./image.jpg/joe2.jpg");
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -324,7 +324,7 @@ border-radius: 20px;
 .meg{
     background: url("./image.jpg/meg.jpg");
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -336,7 +336,7 @@ border-radius: 20px;
 .cleveland{
     background: url("./image.jpg/cleveland.jpg");
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -348,7 +348,7 @@ border-radius: 20px;
 .lois{
     background: url(./image.jpg/lois.png);
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -360,7 +360,7 @@ border-radius: 20px;
 .peterfive{
     background: url(./image.jpg/images.jpg);
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -373,7 +373,7 @@ border-radius: 20px;
     background: url("./image.jpg/stewie.jpg");display: flex;
     
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -384,7 +384,7 @@ border-radius: 20px;
 .stewietwo{
     background: url("./image.jpg/stewie2.jpg");display: flex;
     background-repeat:no-repeat;
-    background-size:295px 200px;
+    background-size:cover;
     flex-direction: column;
     align-items: center;
     justify-content: center;
